@@ -128,6 +128,7 @@ class Practice{
                     System.out.println("Do you want to exit? (yes/no)");
                     String ans = s.nextLine();
                     if(ans.equalsIgnoreCase("yes")){
+                        exit=true;
                         break;
                     }
                     else{
